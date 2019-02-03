@@ -1,8 +1,12 @@
+from pygame import display
 import pgzrun
 import random
 
-BG_COLOR = "dim grey"
-TEXT_COLOR = "orange"
+WIDTH = 800
+HEIGHT = 600
+BG_COLOR = (54, 57, 92)
+TEXT_COLOR = "white"
+FONT = "open-sans"
 WORDS_FILE = "words.txt"
 
 
@@ -47,15 +51,17 @@ def on_key_up(key):
 
 
 def draw():
-    x, y = screen.surface.get_width(), screen.surface.get_height()
-    main_box = Rect(0, 0, x, y)
-
+    display.set_caption("Bingo App")
+    w, h = screen.surface.get_width(), screen.surface.get_height()
+    main_box = Rect(0, 0, w, h)
     screen.fill(BG_COLOR)
-    screen.draw.textbox(current_word, main_box, color=TEXT_COLOR)
+    screen.draw.textbox(current_word, main_box,
+                        color=TEXT_COLOR, fontname=FONT)
 
 
 words = get_words()
 used_words = []
 current_word = "Password Bingo"
+
 
 pgzrun.go()
