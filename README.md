@@ -1,4 +1,4 @@
-# Password Bingo Caller
+# Popular Password Bingo
 
 A bingo caller app that displays the most commonly used passwords in 2018.
 Click to show a random password.
