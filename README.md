@@ -5,6 +5,8 @@ Click to show a random password.
 
 <img src="demo.gif" width="300" />
 
+Try out the [online version][5]
+
 The passwords are a list of the [most common passwords in 2018][1] as compiled by SplashData. The list was made by evaluating over five million leaked passwords. Play along using this [online bingo card][2]. 
 
 
@@ -33,3 +35,4 @@ pip install pgzero
 [2]: https://bingobaker.com/play/1933834
 [3]: https://www.splashdata.com/
 [4]: https://bingobaker.com/
+[5]: https://trinket.io/library/trinkets/3e037c3c17
