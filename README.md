@@ -1,13 +1,13 @@
 # Popular Password Bingo
 
-A bingo caller app that displays the most commonly used passwords in 2018.
+A bingo caller app that displays the most commonly used passwords in 2019.
 Click to show a random password.
 
 <img src="demo.gif" width="300" />
 
 Try out the [online version][5]
 
-The passwords are a list of the [most common passwords in 2018][1] as compiled by SplashData. The list was made by evaluating over five million leaked passwords. Play along using this [online bingo card][2]. 
+The passwords are a list of the [most common passwords in 2019][1] as compiled by SplashData. The list was made by evaluating over five million leaked passwords. Play along using this [online bingo card][2].
 
 
 ### Prerequisites
@@ -31,8 +31,8 @@ pip install pgzero
 * [Bingo Baker][4]
 
 
-[1]: https://eu.usatoday.com/story/tech/2018/12/14/worst-passwords-2018-donald-makes-splashdata-annual-list/2309855002/
-[2]: https://bingobaker.com/play/1933834
+[1]: https://metro.co.uk/2019/12/19/10-worst-passwords-2019-revealed-nothing-changed-11932281/
+[2]: https://bingobaker.com/play/2767617
 [3]: https://www.splashdata.com/
 [4]: https://bingobaker.com/
 [5]: https://trinket.io/library/trinkets/3e037c3c17
